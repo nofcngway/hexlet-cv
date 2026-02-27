@@ -1,1 +1,1 @@
-export type { TProgress } from './types'
+export type { TProgress, IProgressResponse } from './types'

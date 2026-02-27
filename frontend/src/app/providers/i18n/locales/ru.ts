@@ -159,11 +159,12 @@ export default {
         programBadge: {
           newProgram: 'Новый',
           completedProgram: 'Сертификат',
-        }
+        },
       },
     },
     emptyPlaceholders: {
       noPurchasesTitle: 'У вас еще нет подписок и заказов',
+      noLearningProgress: 'Начните обучение сейчас',
     },
     activityCards: {
       courses_in_process: 'Курсов в работе',

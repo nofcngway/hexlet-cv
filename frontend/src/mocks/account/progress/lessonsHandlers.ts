@@ -60,8 +60,7 @@ export const lessonsHandlers = [
       await delay()
 
       // Оставляем только те уроки, которые относятся к этой программе
-      const programLessons = lessons.filter(
-        (lesson) => lesson.programProgressId === programId,
+      const programLessons = lessons.filter(lesson => lesson.programProgressId === programId
       )
 
       const url = new URL(request.url)

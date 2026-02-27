@@ -10,7 +10,7 @@ interface IProps {
 export const OpenProgramButton: React.FC<IProps> = ({
   children,
   programId,
-  variant = "subtle",
+  variant = 'subtle',
 }) => {
   return (
     <Button

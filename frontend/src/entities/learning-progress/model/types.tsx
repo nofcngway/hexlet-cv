@@ -1,3 +1,5 @@
+import type { TPagination } from '@shared/types'
+
 export type TProgress = {
   id: number
   programTitle: string
@@ -8,4 +10,9 @@ export type TProgress = {
   isCompleted: boolean
   startedAt: string
   lastActivityAt: string
+}
+
+export interface IProgressResponse {
+  progress: TProgress[]
+  pagination: TPagination
 }
