@@ -10,11 +10,12 @@ import { AboutUs } from '@widgets/about-us'
 import { WhoWeAre } from '@widgets/who-we-are'
 import { CommercialProjects } from '@widgets/commercial-projects'
 import { MarketAnalytics } from '@widgets/market-analytics'
-import { TrainingPrograms } from '@widgets/training-programs'
+import { TrainingPrograms, type TrainingCardDto } from '@widgets/training-programs'
 import { Communities } from '@widgets/communities'
 import { KnowledgeBaseAndInterviews } from '@widgets/knowledge-base-and-interviews'
 import { Webinars } from '@widgets/webinars'
 import { Articles, type IArticle } from '@widgets/articles'
+import { PerformanceReview, type PerformanceCardDto } from '@widgets/performance-review'
 // import { Link } from '@inertiajs/react'
 
 type PageSection = {
@@ -30,11 +31,13 @@ type PageSection = {
 
 type IndexProps = {
   articles: IArticle[]
+  trainingPrograms: TrainingCardDto[]
+  performanceReview: PerformanceCardDto[]
   pageSections: Readonly<PageSection[]>
 }
 
 const Index: React.FC<IndexProps> = (props) => {
-  const { articles, pageSections } = props
+  const { articles, trainingPrograms, performanceReview, pageSections } = props
 
   const theme = useMantineTheme()
   console.log(`Page sections:`, pageSections)
@@ -56,7 +59,8 @@ const Index: React.FC<IndexProps> = (props) => {
         <WhoWeAre />
         <CommercialProjects />
         <MarketAnalytics />
-        <TrainingPrograms />
+        <TrainingPrograms trainingPrograms={trainingPrograms} />
+        <PerformanceReview performanceReview={performanceReview} />
         <KnowledgeBaseAndInterviews />
         <Webinars />
         <Articles articles={articles} />
