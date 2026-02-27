@@ -1,22 +1,36 @@
 export default {
   translation: {
+    articles: {
+      description: 'Статьи, новости и советы о поиске работы',
+      readNextActionLabel: 'Читать далее',
+      readingTime_one: '{{count}} минута',
+      readingTime_few: '{{count}} минуты',
+      readingTime_many: '{{count}} минут',
+      readingTime_other: '{{count}} минут',
+      title: 'Новости',
+    },
     communities: {
       action_connect_to: 'Присоединиться к сообществу',
       anchor: 'Сообщество',
-      description: 'Мы объединяем выпускников и участников: общение, обмен опытом, поддержка и совместные проекты.',
+      description:
+        'Мы объединяем выпускников и участников: общение, обмен опытом, поддержка и совместные проекты.',
       link_bot_title: 'Бот Карьеры',
-      link_bot_description: 'Автотесты, подсказки по откликам, сопровождение поиска.',
+      link_bot_description:
+        'Автотесты, подсказки по откликам, сопровождение поиска.',
       link_channel_hexlet_title: 'Телеграм канал Хекслета',
-      link_channel_hexlet_description: 'Анонсы, инсайты, советы по карьере и обучению.',
+      link_channel_hexlet_description:
+        'Анонсы, инсайты, советы по карьере и обучению.',
       link_channel_vacancies_title: 'Канал вакансии для новичков',
-      link_channel_vacancies_description: 'Свежие джуниор-вакансии и стажировки каждый день.',
+      link_channel_vacancies_description:
+        'Свежие джуниор-вакансии и стажировки каждый день.',
       title: 'Наше сообщество',
     },
     homePage: {
       greetings: 'Добро пожаловать!',
       aboutUs: {
         title: 'Найти работу в IT легче, чем ты думаешь',
-        description: 'С Hexlet Карьерой ты получаешь офферы быстрее - за недели, а не месяцы.',
+        description:
+          'С Hexlet Карьерой ты получаешь офферы быстрее - за недели, а не месяцы.',
         buttons: {
           tryFree: 'Попробовать бесплатно',
           startWithProjects: 'Начать с проектов →',
@@ -38,10 +52,12 @@ export default {
       commercialProjects: {
         badge: 'Коммерческие проекты',
         title: 'Коммерческие проекты, в которых вы примете участие',
-        description: 'Практика в реальных продуктах Хекслета коммит в GitHub, опыт командной разработки и результаты в портфолио',
+        description:
+          'Практика в реальных продуктах Хекслета коммит в GitHub, опыт командной разработки и результаты в портфолио',
         benefits: {
           title: 'Что это дает',
-          description: 'Проектные роли, code review, задачи из реального бэклога, релизы - все как в компании',
+          description:
+            'Проектные роли, code review, задачи из реального бэклога, релизы - все как в компании',
         },
         projectsList: {
           title: 'Список проектов',
@@ -56,15 +72,18 @@ export default {
       marketAnalytics: {
         badge: 'Аналитика',
         title: 'Аналитика рынка и вакансий',
-        description: 'Мы агрегируем вакансии бесплатно в едином окне. Следи за трендами зарплат, востребованностью профессий и новыми возможностями',
+        description:
+          'Мы агрегируем вакансии бесплатно в едином окне. Следи за трендами зарплат, востребованностью профессий и новыми возможностями',
         cards: {
           liveData: {
             title: 'Живые данные',
-            description: 'Ежедневные обновления по вакансиям, зарплатам и требованиям работодателей',
+            description:
+              'Ежедневные обновления по вакансиям, зарплатам и требованиям работодателей',
           },
           unifiedWindow: {
             title: 'Единое окно',
-            description: 'Все вакансии в одном месте: фильтруй, сравнивай и находи подходящие предложения',
+            description:
+              'Все вакансии в одном месте: фильтруй, сравнивай и находи подходящие предложения',
           },
         },
       },
@@ -75,6 +94,87 @@ export default {
       performanceReview: {
         title: 'Performance review и определение грейда',
         button: 'Записаться',
+      },
+      knowledgeBaseAndInterview: {
+        title: 'База знаний и интервью',
+        knowledgeBaseTitle: 'База знаний',
+        knowledgeBaseDescription: 'Пошаговые гайды, чек-листы и шаблоны для поиска работы.',
+        interviewQuestionsTitle: 'Вопросы с собеседований',
+        interviewQuestionsDescription: 'Коллекция реальных вопросов и ответов по ролям и стеку.',
+        realInterviewVideosTitle: 'Записи реальных собесов',
+        realInterviewVideosDescription: 'Разбор интервью с комментариями экспертов и чек-листами.',
+        button: 'Получить доступ',
+      },
+      webinars: {
+        title: 'Вебинары с HR и экспертами',
+        viewSchedule: 'Смотреть расписание',
+      },
+
+    },
+    accountPage: {
+      purchases: {
+        title: 'Мои покупки и подписки',
+        dashboard_cards: {
+          courses_in_process: 'Курсов в работе',
+          week_progress: 'Прогресс недели',
+          done_lessons: 'Уроков завершено',
+          last_result: 'Последний результат',
+          nearest_event: 'Ближайшее событие',
+        },
+        table: {
+          order_number: 'Заказ',
+          product_name: 'Товар',
+          purchase_date: 'Дата',
+          price: 'Цена',
+          status: 'Статус',
+          receipt: 'Чек',
+        },
+      },
+    },
+    emptyPlaceholders: {
+      noPurchasesTitle: 'У вас еще нет подписок и заказов',
+    },
+    activityCards: {
+      courses_in_process: 'Курсов в работе',
+      week_progress: 'Прогресс недели',
+      done_lessons: 'Уроков завершено',
+      last_result: 'Последний результат',
+      nearest_event: 'Ближайшее событие',
+    },
+    buttonsLabels: {
+      goToCatalog: 'В каталог',
+    },
+    adminPage: {
+      header: {
+        title: 'Admin Panel',
+        logoutButton: 'Выход',
+      },
+      interviews: {
+        title: 'Интервью',
+        input: 'Поиск: заголовок/спикер',
+        button: 'Создать',
+        interviewTitle: 'Заголовок',
+        interviewSpeaker: 'Спикер',
+        interviewVideo: 'Видео',
+        interviewPublished: 'Публикация',
+      },
+      knowledgeBase: {
+        title: 'База знаний',
+        input: 'Поиск: заголовок/категория',
+        button: 'Создать',
+        articleTitle: 'Заголовок',
+        articlecategory: 'Категория',
+        articlePublished: 'Публикация',
+        baseIsEmpty: 'База знаний пока пуста',
+        nothingFound: 'По запросу ничего не найдено',
+      },
+      studyPrograms: {
+        title: 'Программы обучения',
+        button: 'Добавить программу',
+        programName: 'Название',
+        programDuration: 'Длительность',
+        programLessons: 'Уроков',
+        programPublished: 'Публикация',
       },
     },
   },

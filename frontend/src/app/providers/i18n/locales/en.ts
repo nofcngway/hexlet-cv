@@ -1,22 +1,34 @@
 export default {
   translation: {
+    articles: {
+      description: 'Articles, news, and tips about job searching',
+      readNextActionLabel: 'Next',
+      readingTime_one: '{{count}} minute',
+      readingTime_other: '{{count}} minutes',
+      title: 'News',
+    },
     communities: {
       action_connect_to: 'Присоединиться к сообществу',
       anchor: 'Сообщество',
-      description: 'Мы объединяем выпускников и участников: общение, обмен опытом, поддержка и совместные проекты.',
+      description:
+        'Мы объединяем выпускников и участников: общение, обмен опытом, поддержка и совместные проекты.',
       link_bot_title: 'Бот Карьеры',
-      link_bot_description: 'Автотесты, подсказки по откликам, сопровождение поиска.',
+      link_bot_description:
+        'Автотесты, подсказки по откликам, сопровождение поиска.',
       link_channel_hexlet_title: 'Телеграм канал Хекслета',
-      link_channel_hexlet_description: 'Анонсы, инсайты, советы по карьере и обучению.',
+      link_channel_hexlet_description:
+        'Анонсы, инсайты, советы по карьере и обучению.',
       link_channel_vacancies_title: 'Канал вакансии для новичков',
-      link_channel_vacancies_description: 'Свежие джуниор-вакансии и стажировки каждый день.',
+      link_channel_vacancies_description:
+        'Свежие джуниор-вакансии и стажировки каждый день.',
       title: 'Наше сообщество',
     },
     homePage: {
       greetings: 'Welcome',
       aboutUs: {
         title: 'Finding a job in IT is easier than you think',
-        description: 'With Hexlet Career, you get offers faster - in weeks, not months.',
+        description:
+          'With Hexlet Career, you get offers faster - in weeks, not months.',
         buttons: {
           tryFree: 'Try for free',
           startWithProjects: 'Start with projects →',
@@ -38,10 +50,12 @@ export default {
       commercialProjects: {
         badge: 'Commercial Projects',
         title: 'Commercial Projects You Will Participate In',
-        description: 'Practice in real Hexlet products, commits to GitHub, team development experience and portfolio results',
+        description:
+          'Practice in real Hexlet products, commits to GitHub, team development experience and portfolio results',
         benefits: {
           title: 'What It Gives You',
-          description: 'Project roles, code review, tasks from real backlog, releases - everything like in a real company',
+          description:
+            'Project roles, code review, tasks from real backlog, releases - everything like in a real company',
         },
         projectsList: {
           title: 'Projects List',
@@ -56,15 +70,18 @@ export default {
       marketAnalytics: {
         badge: 'Analytics',
         title: 'Market and Job Analytics',
-        description: 'We aggregate job vacancies for free in a single window. Track salary trends, profession demand, and new opportunities',
+        description:
+          'We aggregate job vacancies for free in a single window. Track salary trends, profession demand, and new opportunities',
         cards: {
           liveData: {
             title: 'Live Data',
-            description: 'Daily updates on vacancies, salaries, and employer requirements',
+            description:
+              'Daily updates on vacancies, salaries, and employer requirements',
           },
           unifiedWindow: {
             title: 'Unified Window',
-            description: 'All vacancies in one place: filter, compare, and find suitable offers',
+            description:
+              'All vacancies in one place: filter, compare, and find suitable offers',
           },
         },
       },
@@ -75,6 +92,88 @@ export default {
       performanceReview: {
         title: 'Performance review and grade determination',
         button: 'Sign up',
+      },
+      knowledgeBaseAndInterview: {
+        title: 'Knowledge base and interviews',
+        knowledgeBaseTitle: 'Knowledge Base',
+        knowledgeBaseDescription: 'Step-by-step guides, checklists and templates for job search.',
+        interviewQuestionsTitle: 'Interview questions',
+        interviewQuestionsDescription: 'Collection of real questions and answers about roles and stack.',
+        realInterviewVideosTitle: 'Real interviews videos',
+        realInterviewVideosDescription: 'Interviews analysis with expert comments and checklists.',
+        button: 'Get access',
+      },
+      webinars: {
+        title: 'Webinars with HR and Experts',
+        viewSchedule: 'View Schedule',
+      },
+
+    },
+    accountPage: {
+      purchases: {
+        title: 'My purchases and subscriptions',
+        dashboard_cards: {
+          courses_in_process: 'Courses in progress',
+          week_progress: 'Weekly progress',
+          done_lessons: 'Lessons completed',
+          last_result: 'Last result',
+          nearest_event: 'Nearest event',
+        },
+        table: {
+          order_number: 'Order',
+          product_name: 'Product',
+          purchase_date: 'Date',
+          price: 'Price',
+          status: 'Status',
+          receipt: 'Receipt',
+        },
+      },
+    },
+    activityCards: {
+      courses_in_process: 'Courses in Progress',
+      week_progress: 'Weekly Progress',
+      done_lessons: 'Lessons completed',
+      last_result: 'Latest Result',
+      nearest_event: 'Upcoming Event',
+    },
+    emptyPlaceholders: {
+      noPurchasesTitle: 'You have no subscriptions or orders yet',
+    },
+
+    buttonsLabels: {
+      goToCatalog: 'Go to Catalog',
+    },
+    adminPage: {
+      header: {
+        title: 'Admin Panel',
+        logoutButton: 'Logout',
+      },
+      interviews: {
+        title: 'Interviews',
+        input: 'Search: title/speaker',
+        button: 'Create',
+        interviewTitle: 'Title',
+        interviewSpeaker: 'Speaker',
+        interviewVideo: 'Video',
+        interviewPublished: 'Published',
+      },
+      knowledgeBase: {
+        title: 'Knowledge base',
+        input: 'Search: title/category',
+        button: 'Create',
+        articleTitle: 'Title',
+        articlecategory: 'Category',
+        articlePublished: 'Published',
+        baseIsEmpty: 'The knowledge base is empty',
+        nothingFound: 'Nothing is found by request',
+      },
+      studyPrograms: {
+        title: 'Study programs',
+        button: 'Add program',
+        programName: 'Name',
+        programDuration: 'Duration',
+        programLessons: 'Lessons',
+        programPublished: 'Published',
       },
     },
   },
